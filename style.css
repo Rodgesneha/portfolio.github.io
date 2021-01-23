@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Ubuntu',sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.success{
+    margin: 10px auto;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(85, 192, 85);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.error{
+    margin: 10px auto;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(219, 122, 122);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.max-width{
+    width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* nav bar styling */
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    /* background-color: indigo; */
+    font-family: 'Ubuntu',sans-serif;
+}
+.nav-bar .max-width{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.nav-bar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(37, 36, 36);
+}
+
+.nav-bar .menu li {
+    padding-top: 7px;
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar .menu li a{
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: all 0.3 ease;
+}
+.nav-bar .menu li a:hover{
+    color: rgb(97, 20, 151);
+    border-bottom: 3px solid rgb(97, 20, 151);
+}
+.hero{
+    display: flex;
+    /* background-color: aliceblue; */
+    height: 100vh;
+    /* max-height: 500px; */
+    font-family: 'Ubuntu',sans-serif;
+    color: rgb(37, 36, 36);
+}
+.hero .hero-content .text-1{
+    font-size: 27px;
+}
+.hero .hero-content .text-2{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 3;
+}
+.hero .hero-content .text-3{
+    font-size: 35px;
+    margin: 5px 0;
+}
+.hero .hero-content .text-3 span{
+    font-weight: 500;
+    color: indigo;
+}
+
+
+
+.about{
+    height: 50vh;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    border-bottom: 3px solid indigo;
+    width: 250px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .about-content p{
+    font-size: 27px;
+    /* text-align: center; */
+    width: 450px;
+}
+
+.about .about-content img{
+    height: 35vh;
+}
+
+.skills{
+    height: 50vh;
+}
+.skills .skill-content{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+}
+/* .skills .skill-content .item{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+} */
+.skills .skill-content .item img{
+    /* box-shadow: 0 0 10px rgb(80, 79, 79); */
+    width: 95px;
+    /* height: 100px; */
+}
+.project{
+    height: 70vh;
+}
+.project .project-content {
+    padding-top:5vh;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.project .project-content .item{
+    margin: 15px;
+    width: 350px;
+}
+.project .project-content .item img{
+    
+    border-radius: 10px;
+    height: 27vh;
+}
+
+.project .project-content .item img:hover{
+    box-shadow: 0 0 10px rgb(80, 79, 79);
+
+}
+.contact{
+    height: 70vh;
+}
+.contact .heading{
+    margin-top: 15vh;
+}
+.contact .contact-content form{
+    width: 600px;
+    margin: 30px auto;
+    /* background-color: khaki; */
+    padding:30px;
+}
+
+.contact .contact-content form .input {
+    font-size: 25px;
+    font-weight: 600;
+}
+.contact .contact-content form .input input,.contact .contact-content form .input textarea{
+    font-size: 25px;
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid indigo;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+.contact .contact-content form button{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: indigo;
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact .contact-content form button:hover{
+    background-color: rgb(91, 24, 139);
+}
